@@ -10,7 +10,7 @@ public class SumOfThreeArray {
         int [] array3 = {7,3,0,54,2};
 
         int sumArrays[] = sumArrays(array1,array2,array3);
-        System.out.printf("Sum of the arrays :"+ Arrays.toString(sumArrays));
+        System.out.println("Sum of the arrays :"+ Arrays.toString(sumArrays));
     }
 
     private static int[] sumArrays(int[]array1,int[]array2,int[]array3){
