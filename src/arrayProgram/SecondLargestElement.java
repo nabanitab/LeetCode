@@ -14,7 +14,6 @@ package arrayProgram;
                 System.out.println("Array should have at least two elements");
                 return -1;
             }
-
             int largest = Integer.MIN_VALUE;
             int secondLargest = Integer.MIN_VALUE;
 
