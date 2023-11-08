@@ -14,7 +14,7 @@ public class SecondSmallest {
 
         if (n < 2) {
             System.out.println("Array doesn't have enough elements.");
-            return -1; // or handle the case accordingly
+            return -1;
         }
 
         int smallest = Integer.MAX_VALUE;
