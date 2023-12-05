@@ -52,7 +52,6 @@ public class ThreeSumSolver {
     public static void main(String[] args) {
         ThreeSumSolver solver = new ThreeSumSolver();
 
-        // Example 1
         int[] nums1 = {-1, 0, 1, 2, -1, -4};
         System.out.println("Output 1: " + solver.threeSum(nums1));
 
