@@ -5,9 +5,6 @@ public class PowerOfTwoChecker {
         if (n <= 0) {
             return false;
         }
-
-        // A power of two has only one '1' bit in its binary representation.
-        // Using bitwise AND to check if there is only one '1' bit.
         return (n & (n - 1)) == 0;
     }
 

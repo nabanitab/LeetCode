@@ -33,11 +33,9 @@ public class SummaryRangesSolver {
     public static void main(String[] args) {
         SummaryRangesSolver solver = new SummaryRangesSolver();
 
-        // Example 1
         int[] nums1 = {0, 1, 2, 4, 5, 7};
         System.out.println("Output 1: " + solver.summaryRanges(nums1));
 
-        // Example 2
         int[] nums2 = {0, 2, 3, 4, 6, 8, 9};
         System.out.println("Output 2: " + solver.summaryRanges(nums2));
     }
