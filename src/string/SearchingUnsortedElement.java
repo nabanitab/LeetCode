@@ -4,7 +4,6 @@ public class SearchingUnsortedElement {
     public static void main(String[] args) {
         int arr [] = {2,6,9,5,3,1};
         System.out.println(searchingElement(arr));
-
     }
 
     public static int searchingElement(int[] arr){
