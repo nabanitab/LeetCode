@@ -13,7 +13,6 @@ public class SearchingUnsortedElement {
             if (arr[i] == missingElement){
                 return i;
             }
-
         return -1;
     }
 }
