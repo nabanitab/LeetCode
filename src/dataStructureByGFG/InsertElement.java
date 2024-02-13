@@ -16,6 +16,7 @@ public class InsertElement {
         }
     }
 
+    //driver method
     public static int insertElementToArray(int arr[], int n, int x, int cap, int pos) {
         if (n == cap) {
             System.out.println("Array is full. Cannot insert more elements.");
