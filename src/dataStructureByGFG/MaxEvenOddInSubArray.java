@@ -18,7 +18,6 @@ public class MaxEvenOddInSubArray {
         return res;
     }
 
-
     public static void main(String args[]) {
         int arr[] = {5, 10, 20, 6, 3, 8}, n = 6;
 
