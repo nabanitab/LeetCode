@@ -1,9 +1,9 @@
 package ExceptionHandling;
 
-public class CustomException extends Exception{
+public class CustomException extends RuntimeException{
 
     public CustomException (String massage){
-        super(massage);
+        super("not eligible for voting");
     }
 
     public static void main(String[] args) {
