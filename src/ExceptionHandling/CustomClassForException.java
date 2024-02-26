@@ -1,6 +1,6 @@
 package ExceptionHandling;
 
-public class CustomClassForException  extends Exception{
+public class CustomClassForException  extends RuntimeException{
 
 
     public CustomClassForException (String massage){
