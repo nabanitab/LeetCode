@@ -11,6 +11,9 @@ public class FindTheSumOfOddEven {
 
         int sumOfOdd = list.stream().filter(n -> n%2 !=0).mapToInt(Integer::intValue).sum();
 
+        //  Method reference  in Java is a shorthand syntax for writing lambda expressions. It allows you to refer to
+        //  methods or constructors without invoking them exp - Integer::intValue.
+
         int sumOfEven = list.stream().filter(n -> n%2 ==0).mapToInt(Integer::intValue).sum();
 
         System.out.println("sum of odd number in given string is : " +sumOfOdd);
