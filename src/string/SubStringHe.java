@@ -33,4 +33,16 @@ public class SubStringHe {
         }
         return list;
     }
+
+    //  less time complexity: o(n^2)
+    //     for (int i = 0; i < s.length(); i++) {
+    //            StringBuilder sb = new StringBuilder();
+    //            for (int j = i; j < s.length(); j++) {
+    //                sb.append(s.charAt(j));
+    //                list.add(sb.toString());
+    //            }
+    //        }
+    //        return list;
+    //    }
+    //}
 }
