@@ -3,6 +3,8 @@ package hashmap;
 import java.util.*;
 //Given a string, find the first non-repeating character and return its index. If no such character exists, return -1
 
+
+
 public class FirstNonRepeatingChar {
     public static int firstNonRepeatingChar(String str) {
         Map<Character, Integer> countMap = new LinkedHashMap<>();
