@@ -5,7 +5,7 @@ import java.util.HashMap;
 // Given an array of integers, find the frequency of each element and return it as a HashMap where the keys
 // are the elements and the values are their frequencies.
 
-public class FindFrequencyOrOccuranceOfElement {
+public class FindFrequencyOrOccurrenceOfNumber {
 
     public static void main(String[] args) {
         int [] arr = {1, 2, 3, 4, 1, 2, 4, 5, 6, 2, 2};
