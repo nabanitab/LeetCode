@@ -2,13 +2,23 @@ package coreJava.encapsulatedComponent;
 
 public class Account {
 
-    private double balace;
+    private double balance;
 
-    public double getBalace() {
-        return balace;
+    private String name;
+
+
+    //only get method
+    public double getBalance() {
+        return balance;
     }
 
-    public void setBalace(double balace) {
-        this.balace = balace;
+    public String getName() {
+        return name;
+    }
+
+    //only constructor
+    public Account(double balance, String name) {
+        this.balance = balance;
+        this.name = name;
     }
 }
