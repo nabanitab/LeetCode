@@ -13,6 +13,12 @@ public class StockBuyAndSaleGFG {
 
     }
 
+    //A for loop is used to iterate over the elements of the price array, starting from index 1 and ending at index n - 1.
+    //Within the loop, it checks if the current stock price (price[i]) is greater than the previous stock price
+    // (price[i - 1]). If it is, it means there is a potential profit to be made by buying at the previous price and
+    // selling at the current price.
+    //If the condition is true, it calculates the profit by subtracting the previous price from
+    // the current price and adds it to the profit variable.
     public static int maxProfit(int[] price, int n) {
         int profit = 0;
 
