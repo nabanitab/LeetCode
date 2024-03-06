@@ -1,7 +1,7 @@
 package arrayProgram;
 
 //time complexity : O(n)
-public class StockBuyAndSaleGFG {
+public class StockPriceMaxProfitGFG {
 
     public static void main(String[] args) {
 
