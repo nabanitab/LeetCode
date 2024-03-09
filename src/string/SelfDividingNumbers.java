@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SelfDividingNumbers {
+
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> result = new ArrayList<>();
         for (int num = left; num <= right; num++) {
