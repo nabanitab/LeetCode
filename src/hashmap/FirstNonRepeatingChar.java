@@ -7,6 +7,7 @@ import java.util.*;
 
 public class FirstNonRepeatingChar {
     public static int firstNonRepeatingChar(String str) {
+
         Map<Character, Integer> countMap = new LinkedHashMap<>();
 
         for (char ch : str.toCharArray()) {
