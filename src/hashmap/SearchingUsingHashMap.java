@@ -21,11 +21,13 @@ public class SearchingUsingHashMap {
              ) {
             map.put( chr,map.getOrDefault(chr,0)+1);
         }
+/*
         for (Map.Entry<Character, Integer> entry : map.entrySet()) {
             if (entry.getValue() == 1) {
                 return s.indexOf(entry.getKey());
             }
         }
+*/
 
         return -1;
     }

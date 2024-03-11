@@ -1,5 +1,8 @@
 package string;
 
+import java.util.HashMap;
+import java.util.HashSet;
+
 public class Example {
     public static void main(String args[]){
 
@@ -8,14 +11,17 @@ public class Example {
         System.out.println(getReverese(s));
     }
 
-    public static  String getReverese(String s){
+  public  static String getReverese(String s){
 
-        StringBuilder sb = new StringBuilder();
+      HashSet<String> set =  new HashSet<>();
 
-        for(int i = s.length()-1; i>=0; i--){
-            sb.append(s.charAt(i));
-        }
+      StringBuilder sb = new StringBuilder();
+
+      for (Character c : s.toCharArray()) {
+            if(set.add(s)){
+                sb.append(c);
+            }
+      }
       return sb.toString();
-
-    }
+  }
 }
