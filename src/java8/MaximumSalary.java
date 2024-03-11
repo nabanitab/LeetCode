@@ -14,6 +14,5 @@ public class MaximumSalary {
         System.out.println("Max salary: " + maxSalary);
         }
 
-
     }
 
