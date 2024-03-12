@@ -42,7 +42,7 @@ public class StringObjectCreationExp {
         // while two objects exist in the string pool ("abc"). The number of objects may vary depending
         // on JVM optimizations and string interning behavior.
 
-       // s3.s4;
+       // s3.equals(s4);
 
         //In total, 4 new String objects are created: s2, s3, and the two intermediate concatenated
         // strings. The other strings (s1, s4, and the string literals "abc") already exist in memory and
