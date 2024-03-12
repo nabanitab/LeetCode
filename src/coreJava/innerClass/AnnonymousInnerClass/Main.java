@@ -1,8 +1,10 @@
 package coreJava.innerClass.AnnonymousInnerClass;
 
 //Simple anonymous inner class
+
 public class Main {
     public static void main(String[] args) {
+
         // Creating an instance of the class
         Movie popcorn = new Movie();
 

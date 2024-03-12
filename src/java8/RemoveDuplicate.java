@@ -12,9 +12,9 @@ public class RemoveDuplicate {
         List<Integer>list = new ArrayList<>();
         Collections.addAll(list,1,2,3,7,8,5,2,7,3);
 
-        //if we wanted to price without duplicate number:
-       // Set<Integer>set = list.stream().collect(Collectors.toSet());
-        //System.out.println(set);
+          //if we wanted to price without duplicate number:
+         // Set<Integer>set = list.stream().collect(Collectors.toSet());
+        // System.out.println(set);
 
         //if we wanted to price only duplicate number:
         Set<Integer> uniqueSet = new HashSet<>();

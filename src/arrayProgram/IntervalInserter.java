@@ -7,8 +7,8 @@ import java.util.List;
 //leetCode :57
 public class IntervalInserter {
 
-
         public int[][] insert(int[][] intervals, int[] newInterval) {
+
             List<int[]> result = new ArrayList<>();
             int i = 0;
 
