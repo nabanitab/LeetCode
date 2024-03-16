@@ -6,6 +6,7 @@ public class ProductDesignBuilderClass {
     private Double money;
 
     public ProductDesignBuilderClass(Integer id, String name, Double money) {
+
         this.id = id;
         this.name = name;
         this.money = money;
