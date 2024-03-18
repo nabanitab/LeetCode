@@ -4,7 +4,7 @@ public class CustomClassForException  extends RuntimeException{
 
 
     public CustomClassForException (String massage){
-        super("vhhjgjh");
+        super(massage);
     }
 
     public static void main(String[] args) {

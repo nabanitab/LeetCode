@@ -3,7 +3,7 @@ package ExceptionHandling;
 public class CustomException extends RuntimeException{
 
     public CustomException (String massage){
-        super("not eligible for voting");
+        super(massage);
     }
 
     public static void main(String[] args) {
