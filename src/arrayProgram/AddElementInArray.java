@@ -12,8 +12,7 @@ public class AddElementInArray {
 
         int sum = 0;
 
-        for (int res:arr
-             ) {
+        for (int res:arr) {
             sum = sum+res;
         }
         return sum;
