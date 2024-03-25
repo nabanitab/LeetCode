@@ -1,7 +1,7 @@
 package arrayProgram;
 
 
-public class fibonacciSeries {
+public class FibonacciSeries {
     public static void main(String[] args) {
         int n = 20;
 
