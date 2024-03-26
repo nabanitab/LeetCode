@@ -3,6 +3,7 @@ package arrayProgram;
 
 public class FibonacciSeries {
     public static void main(String[] args) {
+
         int n = 20;
 
         System.out.println("Fibonacci numbers from 0 to " + n + ":");
