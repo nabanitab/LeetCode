@@ -13,7 +13,6 @@ public class ConvertInUppercaseAndSortInStream {
                 .map(String::toUpperCase)
                         .sorted()
                 .collect(Collectors.toList());
-
         System.out.println(result);
     }
 }

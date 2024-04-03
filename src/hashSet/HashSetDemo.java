@@ -1,5 +1,4 @@
 package hashSet;
-
 import java.util.HashSet;
 
 public class HashSetDemo {
