@@ -4,7 +4,7 @@ public class PanlindromChecker {
 
      public static void main(String[] args) {
         String s = "geeksforgeeks";
-        System.out.println("Is '" + s + "' a palindrome? " + checkPalindrome(s));
+        System.out.println( s + "' a palindrome : " + checkPalindrome(s));
     }
 
     public static boolean checkPalindrome(String s) {
