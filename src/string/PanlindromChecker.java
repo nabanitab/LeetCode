@@ -2,7 +2,7 @@ package string;
 
 public class PanlindromChecker {
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         String s = "geeksforgeeks";
         System.out.println("Is '" + s + "' a palindrome? " + checkPalindrome(s));
     }
