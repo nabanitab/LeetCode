@@ -8,6 +8,7 @@ public class AddDigits {
         return num;
     }
 
+
     private int sumOfDigits(int n) {
         int sum = 0;
         while (n > 0) {
