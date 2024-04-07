@@ -1,3 +1,5 @@
+package string;
+
 public class MinimumOperationsFinder {
 
     public int findMinimumOperations(String s1, String s2, String s3) {
