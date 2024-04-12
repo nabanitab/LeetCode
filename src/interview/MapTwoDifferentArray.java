@@ -2,7 +2,7 @@ package interview;
 
 import java.util.HashSet;
 
-public class MApTwoDifferentArray {
+public class MapTwoDifferentArray {
     public static void main(String[] args) {
         int arr [] ={7,4,2,8,5};
         int key = 8;
