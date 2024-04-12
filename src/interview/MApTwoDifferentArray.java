@@ -1,7 +1,5 @@
 package interview;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class MApTwoDifferentArray {
@@ -16,7 +14,7 @@ public class MApTwoDifferentArray {
 
         HashSet<Integer>set = new HashSet<>();
 
-   /*     for (int num: arr
+       /* for (int num: arr
              ) {
             set.add()
         }*/
