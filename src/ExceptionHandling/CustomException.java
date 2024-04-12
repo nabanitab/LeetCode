@@ -10,9 +10,9 @@ public class CustomException extends RuntimeException{
         int x = 0;
         try{
             if(x<=18){
-                throw new CustomException("eligible for voting ");
+                throw new CustomException("not eligible for voting ");
             }
-            System.out.println("not eligible for voting");
+            System.out.println("eligible for voting");
         }catch (CustomException ex){
             ex.printStackTrace();
         }

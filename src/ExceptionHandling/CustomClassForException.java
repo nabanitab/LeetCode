@@ -9,14 +9,16 @@ public class CustomClassForException  extends RuntimeException{
 
     public static void main(String[] args) {
 
-        int x = 10;
+        int x = 20;
 
         try {
-            if (x <= 18) {
-                throw new CustomClassForException("eligeble");
-            }
-            System.out.println("vgvhvh");
+            if (x < 18) {
+                throw new CustomClassForException("Not eligible for voting. Minimum age required is 18.");
 
+            }
+            else {
+                System.out.println("Eligible for voting.");
+            }
         }catch (CustomClassForException ex){
             ex.printStackTrace();
 
