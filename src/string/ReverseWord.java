@@ -9,6 +9,10 @@ public class ReverseWord {
 
     private static String getReverseString(String str) {
 
+        //StringBuilder is used instead of String for concatenating characters in reverse order because StringBuilder
+        // provides better performance for such operations.
+        //Using String for concatenation in a loop results in the creation of multiple intermediate String objects, as
+        // String objects in Java are immutable. Each concatenation operation creates a new String object
         //to create mutable String
         StringBuilder sb = new StringBuilder();
 
