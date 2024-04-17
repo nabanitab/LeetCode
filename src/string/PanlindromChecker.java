@@ -3,7 +3,7 @@ package string;
 public class PanlindromChecker {
 
      public static void main(String[] args) {
-        String s = "geeksforgeeks";
+        String s = "gfg";
         System.out.println( s + "' a palindrome : " + checkPalindrome(s));
     }
 

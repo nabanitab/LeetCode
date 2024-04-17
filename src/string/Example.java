@@ -13,14 +13,10 @@ public class Example {
 
   public  static String getReverese(String s){
 
-      HashSet<String> set =  new HashSet<>();
-
       StringBuilder sb = new StringBuilder();
 
-      for (Character c : s.toCharArray()) {
-            if(set.add(s)){
-                sb.append(c);
-            }
+      for (int i= s.length()-1; i>=0; i-- ){
+          sb.append(s.charAt(i));
       }
       return sb.toString();
   }
