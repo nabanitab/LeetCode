@@ -19,7 +19,6 @@ public class CarBuiderClass {
         this.price = price;
     }
 
-
     public int getId() {
         return id;
     }
@@ -65,6 +64,7 @@ public class CarBuiderClass {
             return this;
         }
 
+        // Static method to create a new instance of CarBuilderClass
         public CarBuiderClass build() {
             return new CarBuiderClass(id, name, deliveryDate, price);
         }

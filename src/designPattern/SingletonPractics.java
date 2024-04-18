@@ -4,7 +4,6 @@ public class SingletonPractics {
     private static SingletonPractics instance;
 
     private SingletonPractics() {
-
     }
 
     public static SingletonPractics getInstance() {
