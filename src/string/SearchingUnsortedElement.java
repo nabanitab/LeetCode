@@ -7,7 +7,7 @@ public class SearchingUnsortedElement {
     }
 
     public static int searchingElement(int[] arr){
-        int missingElement = 5;
+        int missingElement = 1;
         for (int i = 0 ; i<arr.length; i++)
             if (arr[i] == missingElement){
                 return i;

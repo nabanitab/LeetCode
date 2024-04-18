@@ -11,6 +11,10 @@ public class CarController {
                .setDeliveryDate(LocalDateTime.of(2024, 4, 8, 12, 30))
                .build();
 
-
+        System.out.println(designPattern.getId());
+        System.out.println(designPattern.getName());
+        System.out.println(designPattern.getDeliveryDate());
+        System.out.println(designPattern.getPrice());
+    }
      }
-}
+
