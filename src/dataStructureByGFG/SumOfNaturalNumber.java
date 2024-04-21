@@ -9,6 +9,7 @@ public class SumOfNaturalNumber {
     }
 
     private static long calculateSum(int n) {
+
         return (long) n * (n + 1) / 2;
     }
     }

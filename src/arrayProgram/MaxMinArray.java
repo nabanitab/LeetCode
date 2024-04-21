@@ -2,6 +2,7 @@ package arrayProgram;
 
 public class MaxMinArray {
     public static void main(String[] args) {
+
         int[] array = {3, 1, 9, 4, 6, 8, 2, 7, 5};
 
         // Function call to find max and min

@@ -2,11 +2,11 @@ package interviews;
 
 public class Practics {
 
-    private final String name;
+    private  String name;
 
-    private final int age;
+    private  int age;
 
-    private final String location;
+    private  String location;
 
     public Practics(String name, int age, String location) {
         this.name = name;
