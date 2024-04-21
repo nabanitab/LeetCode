@@ -18,7 +18,7 @@ public class Substrings {
     }
 
     public static void main(String[] args) {
-        String input = "abcaa";
+        String input = "abcd";
         List<String> substrings = generateSubstrings(input);
 
         // Print all generated substrings
