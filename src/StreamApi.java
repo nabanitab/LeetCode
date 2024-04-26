@@ -31,13 +31,21 @@ class Pen{
         this.colour = colour;
     }
 
-
 }
 //student oneToMany
 
 /*salary :
 
-select MaxSalary as thirdMAxSalary from Employee where (select Max)
+SELECT MAX(salary) AS thirdMaxSalary
+FROM Employee
+WHERE salary < (
+    SELECT MAX(salary)
+    FROM Employee
+    WHERE salary < (
+        SELECT MAX(salary)
+        FROM Employee
+    )
+)
 
 
 getCandidateById(int id)
