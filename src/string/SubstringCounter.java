@@ -2,6 +2,7 @@ package string;
 
 public class SubstringCounter {
     public static int countOccurrences(String s, String substring) {
+
         int count = 0;
         int index = s.indexOf(substring);
         while (index != -1) {
