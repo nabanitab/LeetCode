@@ -2,8 +2,8 @@ public class Test {
 
     public static void main(String[] args) {
 
-       String s = "nita";
-       String s1 = "nita";
+        String s = "nita";
+        String s1 = "nita";
 
       String result = addTwoString(s,s1);
         System.out.println(result);
