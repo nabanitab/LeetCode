@@ -3,7 +3,7 @@ package dataStructureByGFG;
 public class PalindromCheckUsingReccusion {
 
     public static void main(String[] args) {
-        String s = "abba1";
+        String s = "abba";
         int start = 0;
         int n= 0;
         int end = n-1;
