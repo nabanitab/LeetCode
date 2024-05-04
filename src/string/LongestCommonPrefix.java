@@ -8,7 +8,6 @@ public class LongestCommonPrefix {
         System.out.println(longestEle(str));
 
     }
-
     private static String longestEle(String[] str){
         StringBuilder sb = new StringBuilder();
         Arrays.sort(str);
