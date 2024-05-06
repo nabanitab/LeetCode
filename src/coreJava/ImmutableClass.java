@@ -3,6 +3,7 @@ package coreJava;
 //for creating immutable class we need to add final to our object.
 //also we need to use private access modifier
 //we need to use only constructor and getter method not setter.
+
 public class ImmutableClass {
 
     private final int id;
