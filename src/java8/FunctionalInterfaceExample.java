@@ -4,6 +4,7 @@ package java8;
 public class FunctionalInterfaceExample {
 
     interface MyFunctionalInterface {
+
         void execute();
 
         void display();
