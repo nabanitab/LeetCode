@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-////sort the list based on age in ascending order
-//// or use java 8 notation to sort the list in ascending order
+//sort the list based on age in ascending order
+// or use java 8 notation to sort the list in ascending order
+
 public class Question9 {
 
     public static void main(String[] args) {
