@@ -1,6 +1,7 @@
 package LeetCodeProblem;
 
 //qstn : hashtable(2206)
+
 import java.util.HashMap;
 import java.util.Map;
 
