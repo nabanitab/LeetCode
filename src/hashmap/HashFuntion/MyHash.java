@@ -3,6 +3,7 @@ package hashmap.HashFuntion;
 import java.util.*;
 import java.io.*;
 
+//implementing linear probing in Open Addressing in insert,search & deletion in a hash  program
 class MyHash
 {
     int[] arr;
