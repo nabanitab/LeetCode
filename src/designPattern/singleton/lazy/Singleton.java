@@ -1,6 +1,7 @@
-package designPattern.singleton;
+package designPattern.singleton.lazy;
 
-
+//In Lazy way there is a problem when two thread came ,and get null ,two thread will be created 2
+// instance,so we should not use this one,instead we use syncronized
 public class Singleton {
 
     private static Singleton instance;

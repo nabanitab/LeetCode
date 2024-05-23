@@ -1,4 +1,4 @@
-package designPattern.singleton;
+package designPattern.singleton.lazy;
 
 public class Animal {
 
