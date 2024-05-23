@@ -1,4 +1,4 @@
-package designPattern;
+package designPattern.builderDesignPattern;
 
 import java.time.LocalDateTime;
 
@@ -70,5 +70,6 @@ public class CarBuiderClass {
         }
     }
 }
+
 
 
