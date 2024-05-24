@@ -1,4 +1,4 @@
-package designPattern;
+package creationalDesignPattern;
 
 // Define the Shape interface
 interface Shape {

@@ -1,4 +1,4 @@
-package designPattern.strategyDesignPattern;
+package creationalDesignPattern.strategyDesignPattern;
 
 // Define the strategy interface
 interface SortingStrategy {

@@ -1,4 +1,4 @@
-package designPattern;
+package creationalDesignPattern;
 
 public class ProductClassUsingDesign {
     private Integer id;

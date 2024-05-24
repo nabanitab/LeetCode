@@ -1,4 +1,4 @@
-package designPattern.builderDesignPattern;
+package creationalDesignPattern.builderDesignPattern;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package designPattern;
+package creationalDesignPattern;
 
 public class ProductController {
     public static void main(String[] args) {

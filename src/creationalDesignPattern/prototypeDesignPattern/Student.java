@@ -1,4 +1,4 @@
-package designPattern.prototypeDesignPattern;
+package creationalDesignPattern.prototypeDesignPattern;
 
 public class Student implements PrototypeInterface{
     int age;

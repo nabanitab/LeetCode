@@ -1,4 +1,4 @@
-package designPattern.prototypeDesignPattern;
+package creationalDesignPattern.prototypeDesignPattern;
 
 public interface PrototypeInterface {
     PrototypeInterface clone();
