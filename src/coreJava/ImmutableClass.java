@@ -4,7 +4,8 @@ package coreJava;
 //also we need to use private access modifier
 //we need to use only constructor and getter method not setter.
 
-public class ImmutableClass {
+//final as  class ,so child class can not be created.
+final class ImmutableClass {
 
     private final int id;
      private final String name;

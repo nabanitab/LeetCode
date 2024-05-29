@@ -2,6 +2,7 @@ package coreJava;
 
 public class ForLoopExample {
     public static void main(String[] args) {
+
         int arr [] = {2,5,9,0,6,4};
 
       int x = 4;
