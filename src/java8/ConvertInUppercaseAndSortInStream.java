@@ -12,7 +12,7 @@ public class ConvertInUppercaseAndSortInStream {
         List<String>result = list.stream().filter(s ->s.toLowerCase().startsWith("a"))
                 .map(String::toUpperCase)
                         .sorted()
-                .collect(Collectors.toList());
+                                .collect(Collectors.toList());
         System.out.println(result);
     }
 }
