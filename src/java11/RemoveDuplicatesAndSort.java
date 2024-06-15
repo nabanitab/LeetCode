@@ -10,6 +10,7 @@ public class RemoveDuplicatesAndSort {
 
         System.out.println("Enter a list of integers separated by commas:");
 
+
         while (true) {
             String input = scanner.nextLine();
             try {
