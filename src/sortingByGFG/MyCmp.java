@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 class MyCmp implements Comparator<Integer>
+
     {
         // Sorts the Integers
         public int compare(Integer a, Integer b)
