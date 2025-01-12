@@ -1,6 +1,5 @@
 package leetcode2025;
 
-
 import LeetCodeProblem.Question1;
 
 public class TwoSum {
