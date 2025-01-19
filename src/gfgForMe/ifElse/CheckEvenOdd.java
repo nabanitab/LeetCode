@@ -1,4 +1,4 @@
-package gfgForMe;
+package gfgForMe.ifElse;
 
 import java.util.Scanner;
 
