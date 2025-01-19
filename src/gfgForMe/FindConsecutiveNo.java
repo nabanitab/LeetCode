@@ -3,7 +3,7 @@ package gfgForMe;
 import java.util.Scanner;
 
 //1,2,3,4,5,6 : 1 o/p
-public class FindConsicutiveNo {
+public class FindConsecutiveNo {
 
     public static void main(String[] args) {
 
