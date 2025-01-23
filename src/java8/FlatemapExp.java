@@ -23,7 +23,7 @@ public class FlatemapExp {
             // using flatmap() to flatten this list
             List<Integer> flatList
                     = number.stream()
-                    .flatMap(list -> list.stream())
+                    .flatMap(s -> s.stream())
                     .collect(Collectors.toList());
 
             // printing the list
