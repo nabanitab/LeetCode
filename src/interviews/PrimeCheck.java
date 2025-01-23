@@ -4,7 +4,7 @@ public class PrimeCheck {
 
     public static void main(String[] args) {
 
-        int n = 2;
+        int n = 13;
         System.out.println(getPrime(n));
     }
 
