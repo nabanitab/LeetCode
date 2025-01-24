@@ -10,6 +10,7 @@ public class NumberOfOccurence {
         StringBuilder encoded = new StringBuilder();
         char[] chars = input.toCharArray();
 
+
         int count = 1; // Count for the current character
         for (int i = 1; i < chars.length; i++) {
             if (chars[i] == chars[i - 1]) {
