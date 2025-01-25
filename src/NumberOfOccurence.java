@@ -7,6 +7,7 @@ public class NumberOfOccurence {
             return ""; // Return empty string for null or empty input
         }
 
+
         StringBuilder encoded = new StringBuilder();
         char[] chars = input.toCharArray();
 
