@@ -1,9 +1,9 @@
 package string;
 
-public class ReverseManindra {
+public class ReverseMF {
 
     public static void main(String args[]){
-        String str = "Manindra";
+        String str = "MF" ;
         String result = reverseWord(str);
         System.out.println(result);
     }
