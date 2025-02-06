@@ -15,6 +15,7 @@ public class SubstringNew {
 
     }
 
+
     public static List<String> getSubstring(String str){
 
         List<String>revese = new ArrayList<>();
