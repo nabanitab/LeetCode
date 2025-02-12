@@ -3,9 +3,11 @@ package coreJavaPracrics;
 public class ForEachExample {
     
     public static void main(String[] args){
-        int [] arr = {2,3,6,8,4,9};
-        for (int num:arr) {
-            System.out.println(num+"number");
+        for (int i = 1; i <= 10; i++) {
+            if (i == 5) {
+                break;  // Stops the loop at 5
+            }
+            System.out.println(i);
         }
     }
 }
