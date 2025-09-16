@@ -8,11 +8,10 @@ import java.util.stream.Collectors;
 public class ConvertInUppercaseAndSortInStream {
 
     public static void main(String[] args) {
-        List<String>list = List.of("banana","apple","lemon","avacodo");
-        List<String>result = list.stream().filter(s ->s.toLowerCase().startsWith("a"))
-                .map(String::toUpperCase)
-                        .sorted()
-                                .collect(Collectors.toList());
-        System.out.println(result);
+        List<String> list = List.of("banana", "apple", "lemon", "avacodo");
+
+
+        List<String> result = list.stream().filter(s -> s.toLowerCase().startsWith("a")).map(String::toUpperCase).sorted().collect(Collectors.toList());
+        return;
     }
 }
