@@ -14,15 +14,19 @@ public class EmployeeDepartment {
         Salary = salary;
     }
 
-
-    @Override
-    public String toString() {
-        return "EmployeeDepartment{" +
-                "EmployeeId=" + EmployeeId +
-                ", EmplyeeName='" + EmplyeeName + '\'' +
-                ", Department='" + Department + '\'' +
-                ", Salary=" + Salary +
-                '}';
+    public int getEmployeeId() {
+        return EmployeeId;
     }
 
+    public String getEmplyeeName() {
+        return EmplyeeName;
+    }
+
+    public String getDepartment() {
+        return Department;
+    }
+
+    public Double getSalary() {
+        return Salary;
+    }
 }
