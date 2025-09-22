@@ -3,6 +3,7 @@ package java8;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class EmployeeManagementUsingStream {
 
@@ -36,5 +37,20 @@ public class EmployeeManagementUsingStream {
                 .average()
                 .orElse(0);
         System.out.println("Average salary of all employees: " + averageSalary);
+
+        //optional class
+
+        // Using Stream + filter + findFirst
+        Optional<Employee> employeeOptional = list.stream()
+                .filter(e -> e.getName().equals("shreyans"))
+                .findFirst();
+
+// Check if present
+        if (employeeOptional.isPresent()) {
+            System.out.println("Employee found: " + employeeOptional.get());
+        } else {
+            System.out.println("Employee not found");
+        }
+
     }
-}
+    }
