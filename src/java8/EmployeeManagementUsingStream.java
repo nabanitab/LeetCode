@@ -45,7 +45,7 @@ public class EmployeeManagementUsingStream {
                 .filter(e -> e.getName().equals("shreyans"))
                 .findFirst();
 
-// Check if present
+    // Check if present
         if (employeeOptional.isPresent()) {
             System.out.println("Employee found: " + employeeOptional.get());
         } else {
