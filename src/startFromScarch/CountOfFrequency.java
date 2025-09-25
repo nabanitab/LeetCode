@@ -3,6 +3,7 @@ package startFromScarch;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class CountOfFrequency {
     public static void main(String[] args) {
         String s = "nabanita";
