@@ -17,6 +17,7 @@ class BST {
         return root;
     }
 
+
     void inorder(Node root) {
         if (root != null) {
             inorder(root.left);
