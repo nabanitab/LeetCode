@@ -13,10 +13,13 @@ public class AllAboutHashMapExample {
         hashMap.put(2,"shreyans");
         hashMap.put(3,"susmita");
 
+        hashMap.put(null,"ram");
+        hashMap.put(null,"vipul");
+
+
 
         System.out.println(hashMap);
 
-        System.out.println();
 
         //for printing only key
        Set<Integer>keys= hashMap.keySet();
