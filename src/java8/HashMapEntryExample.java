@@ -23,6 +23,10 @@ public class HashMapEntryExample {
             System.out.println("Employee: " + entry.getKey() + ", Salary: " + entry.getValue());
         }
 
+        for(Map.Entry<String,Integer>entry : employeeMap.entrySet()){
+            System.out.println(entry.getKey()+":"+entry.getValue());
+        }
+
         // Step 3: Filter employees with salary > 5000 using stream + entrySet
         System.out.println("\n---- Filter salary > 5000 ----");
         employeeMap.entrySet().stream()

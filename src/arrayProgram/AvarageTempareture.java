@@ -23,7 +23,7 @@ public class AvarageTempareture {
         }
 
         // Calculate the average
-        return (double) sum / temperatures.length;
+        return  sum / temperatures.length;
     }
 }
 
