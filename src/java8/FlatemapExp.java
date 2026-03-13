@@ -30,5 +30,7 @@ public class FlatemapExp {
             System.out.println("List generate by flatMap-"
                     + flatList);
         }
+
+
     }
 
