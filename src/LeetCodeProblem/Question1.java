@@ -1,16 +1,28 @@
 package LeetCodeProblem;
 
+import java.util.HashMap;
+
 public class Question1 {
     public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target) {
-                    int[] result = {i, j};
-                    return result;
-                }
+/*
+“I’m using a HashMap to store numbers I’ve seen so far and their indices.
+For each element, I compute the difference target - nums[i].
+If that difference already exists in the map, it means I’ve found the two numbers whose sum equals the target, so I return their indices.
+If not, I store the current number with its index in the map and continue.”
+ */
+        HashMap<Integer,Integer>map = new HashMap<>();
+
+
+        for(int i =0; i<nums.length; i++){
+            //For each element, I compute the difference target - nums[i]
+            int diff = target - nums[i];
+            if(map.containsKey(diff)){
+                return new int[] {map.get(diff),i};
             }
         }
-        return null;
+
+        return new int[0];
+
     }
 
     public static void main(String[] args) {

@@ -5,13 +5,13 @@ public class ReverseaStringOfWord {
     }
 
     public static String getReverse(String s) {
-        char[] ch = s.toCharArray();
-        StringBuilder sb = new StringBuilder();
 
-        for(int i = ch.length-1; i>=0; i++){
-            sb.append(s.toCharArray());
+        String res = "";
+        for(int i = s.length()-1; i>=0; i++){
+            res+=s;
         }
-       return sb.toString();
 
+
+        return res;
     }
 }
