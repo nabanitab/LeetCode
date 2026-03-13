@@ -1,9 +1,6 @@
 package fome;
 
-import coreJava.inheritance.C;
-
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 
